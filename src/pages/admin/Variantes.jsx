@@ -29,7 +29,7 @@ function toNumberOrNull(v) {
   return n;
 }
 
-const UNIT_SALE_OPTIONS = ["KG", "ATADO", "UNIDAD"];
+const UNIT_SALE_OPTIONS = ["KG", "ATADO", "UNIDAD", "BANDEJA", "BOLSA"];
 
 // ✅ Unidad de compra sugerida (no obligatoria)
 const UNIT_BUY_OPTIONS = [
