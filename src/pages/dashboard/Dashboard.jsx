@@ -26,11 +26,11 @@ function pickTodaySession(sessions = []) {
 
 function badgeByStatus(status) {
   if (status === "ABIERTA")
-    return "bg-green-500/10 text-green-300 border-green-500/20 shadow-[0_0_18px_rgba(16,185,129,0.55)]";
+    return "bg-green-500/10 text-green-300 border-green-500/20 shadow-[0_0_18px_rgba(16,185,129,0.55)] animate-pulse";
   if (status === "PLANIFICACION")
-    return "bg-yellow-500/10 text-yellow-300 border-yellow-500/20 shadow-[0_0_18px_rgba(255,217,102,0.55)]";
+    return "bg-yellow-500/10 text-yellow-300 border-yellow-500/20 shadow-[0_0_18px_rgba(255,217,102,0.55)] animate-pulse";
   if (status === "CERRADA")
-    return "bg-zinc-500/10 text-zinc-300 border-white/10 shadow-[0_0_18px_rgba(91,91,91,0.55)]";
+    return "bg-zinc-500/10 text-zinc-300 border-white/10 shadow-[0_0_18px_rgba(91,91,91,0.55)] animate-pulse";
   return "bg-white/5 text-zinc-300 border-white/10";
 }
 
